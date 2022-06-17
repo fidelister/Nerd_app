@@ -2,31 +2,31 @@ import React from 'react'
 import Footer from '../includes/Footer'
 import Navbar from '../includes/Navbar'
 import '../css/Home.css'
-import Typewriter from 'typewriter-effect/dist/core';
+// import Typewriter from 'typewriter-effect/dist/core';
 import { BsFillArrowRightCircleFill } from 'react-icons/bs'
 import { FaUserTie} from 'react-icons/fa'
 import { AiOutlineLike } from 'react-icons/ai'
 import { FcAlarmClock, FcRating } from 'react-icons/fc'
 import { GoGlobe, GoLocation} from 'react-icons/go'
 function Home() {
-    var app = document.getElementById('app');
+    // var app = document.getElementById('app');
 
-    var typewriter = new Typewriter(app, {
-        loop: true,
-        delay: 75,
-    });
+    // var typewriter = new Typewriter(app, {
+    //     loop: true,
+    //     delay: 75,
+    // });
 
-    typewriter
-        .pauseFor(1000)
-        .typeString('<strong style="color:#0d6efd;"> Networking Software Security OutSourcing</strong>')
-        .pauseFor(300)
-        .deleteChars(20)
-        .typeString('<strong  style="color:#0d6efd;"> IT Projects Requirements</strong>')
-        .pauseFor(300)
-        .deleteChars(24)
-        .typeString('<strong  style="color:#0d6efd;">Business Shopping Analtyics Information</strong>')
-        .pauseFor(1000)
-        .start();
+    // typewriter
+    //     .pauseFor(1000)
+    //     .typeString('<strong style="color:#0d6efd;"> Networking Software Security OutSourcing</strong>')
+    //     .pauseFor(300)
+    //     .deleteChars(20)
+    //     .typeString('<strong  style="color:#0d6efd;"> IT Projects Requirements</strong>')
+    //     .pauseFor(300)
+    //     .deleteChars(24)
+    //     .typeString('<strong  style="color:#0d6efd;">Business Shopping Analtyics Information</strong>')
+    //     .pauseFor(1000)
+    //     .start();
     return (
         <>
             <Navbar />
