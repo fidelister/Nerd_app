@@ -1,0 +1,14 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.spanColor{
+    color:  #0d6efd !important;
+}
+body{
+    font-family: 'DM Sans', sans-serif;
+}
+/* .btn2{
+    background-color: #010821;
+    color: white;
+} */

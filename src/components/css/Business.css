@@ -1,0 +1,36 @@
+h1{
+    font-weight: bolder;
+}
+.cols{
+    border-radius: 3rem;
+    height: 35rem;
+}
+
+.colss{
+    border-radius: 1.5rem;
+}
+
+.business{
+    border-radius: 1.5rem 1.5rem 0 0;
+}
+
+.rows{
+    border-radius: 1.5rem 1.5rem 0 0;
+}
+
+.box{
+    height: 25rem;
+}
+
+.forms input{
+    border-radius: 1rem;
+}
+.forms textarea{
+    border-radius: 1rem;
+}
+
+.forms{
+    border-radius: 1rem;
+}
+
+

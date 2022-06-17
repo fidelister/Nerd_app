@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ul li {
+    list-style-type: none;
+}
+footer{
+    background-color: #0e52b8;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+body{
+    font-family: 'DM Sans', sans-serif;
+}
+@media (max-width:768px) {
+    footer{
+        height: 130vh;
+        padding-top: 2rem;
+    }
+    
+}

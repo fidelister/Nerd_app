@@ -1,0 +1,13 @@
+h1{
+    font-weight: bold;
+}
+.forms input{
+    border-radius: 1rem;
+}
+.forms textarea{
+    border-radius: 1rem;
+}
+
+.forms{
+    border-radius: 1rem;
+}
