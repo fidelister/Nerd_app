@@ -3,6 +3,8 @@ import '../css/Blog.css'
 import Navbar from '../includes/Navbar'
 import Footer from '../includes/Footer'
 function Blog() {
+  // "typewriter-effect": "^2.18.2",
+
   return (
     <>
     <Navbar />
