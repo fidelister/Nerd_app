@@ -2,6 +2,7 @@ import React from 'react'
 import '../css/Blog.css'
 import Navbar from '../includes/Navbar'
 import Footer from '../includes/Footer'
+import {Link} from 'react-router-dom'
 function Blog() {
   // "typewriter-effect": "^2.18.2",
 
@@ -25,7 +26,7 @@ function Blog() {
           their tech support in the same way they order a pizza, buy the
           latest fashion or hail a ride.
         </h6>
-        <button className="btn btn-primary text-light">CONTINUE READING</button>
+        <Link to="/continue" className="btn btn-primary text-light">CONTINUE READING</Link>
       </div>
     </div>
   </div>
