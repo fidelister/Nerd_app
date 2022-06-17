@@ -6,7 +6,8 @@
 //   return (
 //     <>
 //     <Navbar />
-//   <div classname="bg-light">
+  
+//    <div className="bg-light">
 //   <div className="container w-75">
 //     <h3 className="text-center mt-5">
 //       Pricing for our on-site and remote tech support services
@@ -234,6 +235,7 @@
 //     </div>
 //   </div>
 // </div>
+
 // <Footer/>
 //     </>
 //   )
